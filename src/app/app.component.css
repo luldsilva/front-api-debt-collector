@@ -1,0 +1,12 @@
+/* CSS para o container do título e do formulário */
+.container {
+    max-width: 400px; /* Ajuste conforme necessário para combinar com a largura do formulário */
+    margin: 0 auto;
+    text-align: center; /* Centraliza o texto do título e o conteúdo dentro do container */
+  }
+  
+  /* Estilo para o título */
+  .container h1 {
+    font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+    margin-bottom: 20px; /* Espaço abaixo do título para separar do formulário */
+  }

@@ -1,0 +1,25 @@
+<h2>Lista de Débitos</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Número do Título</th>
+      <th>Nome do Cliente</th>
+      <th>Quantidade de Parcelas</th>
+      <th>Valor Original</th>
+      <th>Dias em Atraso</th>
+      <th>Valor Atualizado</th>
+      <th>Juros</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let debito of debitos">
+      <td>{{ debito.numeroDoTitulo }}</td>
+      <td>{{ debito.nomeDoCliente }}</td>
+      <td>{{ debito.quantidadeDeParcelas }}</td>
+      <td>{{ debito.valorOriginal }}</td>
+      <td>{{ debito.diasEmAtraso }}</td>
+      <td>{{ debito.valorAtualizado }}</td>
+      <td>{{ debito.juros }}%</td>
+    </tr>
+  </tbody>
+</table>
